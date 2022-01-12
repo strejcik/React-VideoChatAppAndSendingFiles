@@ -1,0 +1,22 @@
+.hint {
+    border-bottom: 1px solid lightgray;
+
+}
+.react-autosuggest__suggestions-container--open{
+    border: 1px solid lightgray;
+    list-style: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    position: absolute;
+    overflow: auto;
+    z-index: 999;
+    width: calc(25% - 1px);
+    background: #FFF;
+    transition: all 500ms;
+}
+
+.hint .item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}

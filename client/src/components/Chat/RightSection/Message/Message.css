@@ -1,0 +1,122 @@
+ .message{
+        font-family: sans-serif;
+        padding: 10px;
+  }
+  .message ul{
+    padding: 0px;
+    list-style: none;
+    margin: 0px auto;
+    width: 90%;
+    overflow:hidden;
+  }
+  .message ul li{
+    position: relative;
+    width: 80%;
+    padding: 15px 0px;
+    clear: both;
+    border-bottom: 1px solid #d79494;
+    border-bottom-right-radius: 10px;
+  }
+  .message ul li.msg-left{
+    float: left;
+  }
+  .message ul li.msg-left p{
+    margin-left:70px;
+    color: white;
+    font-size: 13px;
+  }
+  .message ul li.msg-left img{
+    position: absolute;
+    width: 40px;
+    bottom: 30px;
+  }
+  .message ul li.msg-left .msg-desc{
+    margin-left: 70px;
+    font-size: 12px;
+    background: #E8E8E8;
+    padding:5px 10px;
+    border-radius: 5px 5px 5px 0px;
+    position: relative;
+    word-break: break-all;
+  }
+
+  .message ul li.msg-left .msg-desc img {
+    bottom: 0px;
+    position: relative;
+  }
+  .message ul li.msg-left .msg-desc:before{
+    position: absolute;
+    content: '';
+    border:10px solid transparent;
+    border-bottom-color: #E8E8E8;
+    bottom: 0px;
+    left: -10px;
+  }
+  .message ul li.msg-left small{
+    float: right;
+    color: #c1c1c1;
+  }
+  
+  .message ul li.msg-right{
+    float: right;
+  }
+  .message ul li.msg-right img{
+    position: absolute;
+    width: 40px;
+    right: 0px;
+    bottom: 30px;
+  }
+  
+
+  .message ul li.msg-right p {
+    text-align: right;
+    margin-right: 69px;
+    color:white;
+    font-size: 13px;
+  }
+
+
+  .message ul li.msg-right .msg-desc{
+    margin-right: 70px;
+    font-size: 12px;
+    background: #cce5ff;
+    color: #004085;
+    padding:5px 10px;
+    border-radius: 5px 5px 5px 0px;
+    position: relative;
+    word-break: break-all;
+  }
+
+  .message ul li.msg-right .msg-desc img {
+    bottom: 0px;
+    position: relative;
+  }
+
+  .message ul li.msg-right .msg-desc:before{
+    position: absolute;
+    content: '';
+    border:10px solid transparent;
+    border-bottom-color: #cce5ff;
+    bottom: 0px;
+    right: -10px;
+  }
+  .message ul li.msg-right small{
+    float: right;
+    color: #c1c1c1;
+    margin-right: 70px;
+  }
+  .message ul li.msg-day{
+    border-top:1px solid #EBEBEB;
+    width: 100%;
+    padding: 0px;
+    margin: 15px 0px;
+  }
+  .message ul li.msg-day small{
+    position: absolute;
+    top: -10px;
+    background: #F6F6F6;
+    color: #c1c1c1;
+    padding: 3px 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }

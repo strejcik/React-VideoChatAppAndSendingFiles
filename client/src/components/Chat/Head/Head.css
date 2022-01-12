@@ -1,0 +1,70 @@
+.head-section{
+	border-bottom:1px solid #E6E6E6;
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+.headLeft-section{
+	width: calc(30% - 1px);
+	float: left;
+	border-right:1px solid #E6E6E6;
+}
+.headLeft-sub{
+	padding: 15px;
+	text-align: center;
+}
+.headLeft-sub input{
+	width: 60%;
+	border-radius: 20px;
+	border:1px solid #E6E6E6;
+	padding: 7px;
+	outline: none;
+}
+.headLeft-sub button{
+	background: #009EF7;
+	color: #fff;
+	border:1px solid #E6E6E6;
+	padding: 7px 15px;
+}
+.headRight-section{
+	width: 70%;
+	float: left;
+}
+.headRight-sub-1{
+    padding: 10px 15px 0px 15px;
+    width: calc(100% - 175px);
+    display: inline-block;
+}
+
+.headRight-sub-2{
+    padding: 10px 15px 0px 15px;
+    display: inline-block;
+}
+
+.headRight-sub-2 > .call-wrapper, .headRight-sub-2 > .video-wrapper {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 15px 5px 5px;
+}
+
+.headRight-sub-2>.call-wrapper {
+    font-size: 35px;
+    color: #E6E6E6;
+}
+
+.headRight-sub-2>.call-wrapper>.fa-phone:hover {
+    transition: 400ms;
+    color: green;
+}
+
+.headRight-sub-2>.video-wrapper {
+    font-size: 35px;
+    color: #E6E6E6;
+}
+
+.headRight-sub-2>.video-wrapper>.fa-video-camera:hover {
+    transition: 400ms;
+    color: dodgerblue;
+}
+
+.clearBoth { clear:both; }

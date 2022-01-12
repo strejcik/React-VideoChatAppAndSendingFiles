@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    list-style: none !important;
+}
+
+.hero {
+    height: 100%;
+    width: 100%;
+    background: #114357;
+    background: -webkit-linear-gradient(to right, #F29492, #114357);
+    background: linear-gradient(to right, #F29492, #114357);
+    background-position: 50% 50%;
+    background-size: cover;
+    position: absolute;
+}

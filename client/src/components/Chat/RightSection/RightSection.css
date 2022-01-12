@@ -1,0 +1,20 @@
+.right-section{
+	width: 50%;
+    float: left;
+    height: calc(88vh - 64px);
+    background-color: #F6F6F6;
+    overflow-x: hidden;
+	background: linear-gradient(to right, #F29492, #114357);
+}
+.right-section-bottom{
+	background: #fff;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+	width: calc(48.1% - 1px);
+    padding: 12.7px;
+}
+
+.right-section-bottom > .conversationInfo {
+    color: lightgray;
+}
